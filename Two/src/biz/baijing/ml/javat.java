@@ -7,6 +7,9 @@ public class javat {
 
         float e = (float) (c + d);
 
+        double g =  c + d;
+
         System.out.println(e);
+        System.out.println(g);
     }
 }
