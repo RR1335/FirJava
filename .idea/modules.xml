@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FirJava.iml" filepath="$PROJECT_DIR$/FirJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/One/One.iml" filepath="$PROJECT_DIR$/One/One.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Two/Two.iml" filepath="$PROJECT_DIR$/Two/Two.iml" />
     </modules>
   </component>
 </project>
