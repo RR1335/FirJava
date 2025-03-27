@@ -13,16 +13,27 @@ public class switcht {
         switch(res) {
             // case 后面的 value 是一个固定的值，不能是变量
             // 自变量
-            case 100:
-                System.out.println("100");
-                // break 必须有，是结束 switch 的标志
-                break;
-            case 200:
-                System.out.println("200");
-                break;
-            default:
-                System.out.println("default");
-                break;
+//            case 100:
+//                System.out.println("100");
+//                // break 必须有，是结束 switch 的标志
+//                break;
+//            case 200:
+//                System.out.println("200");
+//                break;
+//
+//            default:
+//                System.out.println("default");
+//                break;
+            case 1 -> {
+                System.out.println("1 ->");
+            }
+            case 2 -> {
+                System.out.println("2 ->");
+            }
+            default -> {
+                System.out.println("default ->");
+            }
+
         }
     }
 }
