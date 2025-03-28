@@ -5,10 +5,14 @@ public class StudyMethod {
     private int age;
 
     // 如果没有任何构造函数，则 new 会自动创建一个构造函数
-//    public  StudyMethod() {
-//        System.out.println("执行了么有呢，空的构造函数。");
-//    }
+    public  StudyMethod() {
+        System.out.println("执行了么有呢，空的构造函数。");
+    }
 
+    public StudyMethod(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public void setName(String name) {
         this.name = name;
