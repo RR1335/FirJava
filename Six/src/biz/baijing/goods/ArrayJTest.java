@@ -17,6 +17,8 @@ public class ArrayJTest    {
             System.out.println(gs[i]);
         }
 
+        // 问题 为何 g[i].setPrice(399.00) 报错。
+
         gs[0] = g1;
         gs[1] = g2;
         gs[2] = g3;
