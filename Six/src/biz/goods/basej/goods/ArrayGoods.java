@@ -1,4 +1,4 @@
-package biz.baijing.goods;
+package biz.goods.basej.goods;
 
 public class ArrayGoods {
     public static void main(String[] args) {

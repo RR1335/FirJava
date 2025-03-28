@@ -1,4 +1,4 @@
-package biz.baijing.goods;
+package biz.goods.basej.goods;
 
 import java.util.Scanner;
 

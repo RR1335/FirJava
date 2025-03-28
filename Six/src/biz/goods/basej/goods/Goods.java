@@ -1,4 +1,4 @@
-package biz.baijing.goods;
+package biz.goods.basej.goods;
 
 public class Goods {
     // 属性
