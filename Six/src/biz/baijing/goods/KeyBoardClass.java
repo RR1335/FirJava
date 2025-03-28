@@ -36,6 +36,7 @@ public class KeyBoardClass {
         System.out.println(" ----------------------- ");
 
         for (int i = 0; i < g.length; i++) {
+//            System.out.println(g[i]);    // 确认（验证） new Goods()在 for 循环外， g[i] 是否指向最后一次赋值的内存地址
             Goods gp = g[i];
             System.out.println("\t " + gp.getName() + "\t " + gp.getPrice() + "\t " + gp.getCount() + "\t " + gp.getId());
         }
