@@ -25,15 +25,57 @@ public class RegUserForm {
         this.age = age;
     }
 
-
+    /**
+     * 设置用户名
+     * @param username  用户名
+     */
     public void setUsername(String username){
-        this.username = username;
+         this.username = username;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getUsername() {
         return username;
     }
 
+    /**
+     *
+     * @param password
+     */
+    public void setPassword(String password){
+         this.password = password;
+    }
+
+    public String getPassword() {
+         return password;
+    }
+
+    public void setEmail(String email){
+         this.email = email;
+    }
+
+    public String getEmail() {
+         return email;
+    }
+
+    public void setGender(String gender){
+         this.gender = gender;
+    }
+
+    public String getGender() {
+         return gender;
+    }
+
+    public void setAge(int age){
+         this.age = age;
+    }
+
+    public int getAge() {
+         return age;
+    }
 
 
 }
