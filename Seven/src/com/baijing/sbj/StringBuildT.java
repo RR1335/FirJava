@@ -9,7 +9,7 @@ public class StringBuildT {
         sb.append(2.5);
         sb.append(true);
 
-        sb.append(3.14).append("JSDOIJnfre;ir").append(1902988).append(true)
+        sb.append(3.14).append("JSDOIJnfre;ir").append(1902988).append(true);
 
         StringBuilder reverse = sb.reverse();
 
