@@ -13,3 +13,8 @@
 
     内存： System.identityHashCode() 哈希值
     类型： getClass()
+
+## 面向对象的三个特点啊
+
+     面向对象（OOP）的三个特征：. 封装（Encapsulation）; 继承（Inheritance）; 多态（Polymorphism）
+     抽象（Abstraction）

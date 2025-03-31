@@ -11,6 +11,7 @@ public class TestThisAndStatic {
         stu1.age = 18;
 
         stu1.show();
+        System.out.println("stu1 techername -" +stu1.techername);
 
         System.out.println(" --------- 分割线 __________");
 
