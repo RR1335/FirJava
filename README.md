@@ -7,4 +7,9 @@
 
 ## 插件 Plugins
 
-    PTG Quick Generation JavaBean Quick Generation SQL Quick Generation JVM arguemnts Quick Generation Spring Configuration
+    PTG Quick Generation JavaBean  Quick Generation SQL Quick Generation JVM arguemnts Quick Generation Spring Configuration
+
+## 内存位置和类型
+
+    内存： System.identityHashCode() 哈希值
+    类型： getClass()
