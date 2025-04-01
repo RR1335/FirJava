@@ -26,3 +26,4 @@
 
     System.out.println(Long.toHexString(VM.current().addressOf(z)));
     z 是声明的对象 —— Class z = new Class();
+
