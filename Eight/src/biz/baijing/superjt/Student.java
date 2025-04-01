@@ -8,4 +8,9 @@ public class Student extends Person {
         super();
         System.out.println("Student — 子类的无参构造。");
     }
+
+    public Student(String name, int age) {
+        super(name,age);
+        System.out.println(super.name  + " " + super.age );
+    }
 }
