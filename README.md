@@ -18,3 +18,11 @@
 
      面向对象（OOP）的三个特征：. 封装（Encapsulation）; 继承（Inheritance）; 多态（Polymorphism）
      抽象（Abstraction）
+
+## 内存查看工具
+
+    jhsdb hsdb
+    jps
+
+    System.out.println(Long.toHexString(VM.current().addressOf(z)));
+    z 是声明的对象 —— Class z = new Class();
