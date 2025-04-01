@@ -19,10 +19,12 @@ class Person {
 
 class Teacher extends Person {
 
+    @Override
     public void say() {
         System.out.println("老师，上课，讲话 ……");
     }
 
+    @Override
     public void drink() {
         System.out.println("老师，上课，喝水 ……");
     }
