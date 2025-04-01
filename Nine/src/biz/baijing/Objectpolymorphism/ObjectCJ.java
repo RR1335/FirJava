@@ -20,11 +20,21 @@ public class ObjectCJ {
 //        Cat c = (Cat) a;
 //        c.show();
 
-        if (a instanceof Cat) {
+/*        if (a instanceof Cat) {
             Cat c = (Cat) a;
             c.show();
         } else  if (a instanceof Dog) {
             Dog dd = (Dog)a;
+            System.out.println("if 判断");
+            dd.show();
+            dd.limitDog();
+        } else {
+            System.out.println("类型转换失败。");
+        }*/
+
+        if (a instanceof Cat c) {
+            c.show();
+        } else  if (a instanceof Dog dd) {
             System.out.println("if 判断");
             dd.show();
             dd.limitDog();
