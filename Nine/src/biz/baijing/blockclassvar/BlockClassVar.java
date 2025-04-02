@@ -5,7 +5,8 @@ public class BlockClassVar {
     int age;
 
     // 构造代码块，在创建构造方法的时候执行
-    {
+    // static 描述，只执行一次
+   {
         System.out.println("BlockClassVar - 开始创建类");
     }
 
