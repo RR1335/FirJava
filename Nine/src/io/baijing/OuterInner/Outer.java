@@ -1,7 +1,9 @@
 package io.baijing.OuterInner;
 
 public class Outer {
+
     private static int a = 10;
+
     public Outer() {
         System.out.println("() -" +System.identityHashCode(a));
     }
