@@ -1,12 +1,13 @@
 package io.baijing.interfacedefault;
 
-public class InterImpl implements Inter {
+public class InterImpl implements Inter,InterB {
 
     @Override
     public void interMethod() {
         System.out.println("interMethod -- 实现类重写的方法");
     }
 
+    //  Inter and InterB 都有方法 show 则必须重写
     @Override
     public void show() {
 //        Inter.super.show();
