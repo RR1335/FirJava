@@ -8,5 +8,8 @@ public class RunOuter {
         ooi.show01();
         // 静态方法也能被调用，单会是
         ooi.show02();
+
+        // 静态内部类的调用方法
+        Outer.Inner.show02();
     }
 }
