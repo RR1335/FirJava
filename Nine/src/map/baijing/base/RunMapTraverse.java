@@ -2,6 +2,7 @@ package map.baijing.base;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.BiConsumer;
 
 public class RunMapTraverse {
     public static void main(String[] args) {
@@ -12,13 +13,13 @@ public class RunMapTraverse {
         m.put(3,"滑雪");
 
 
-/*        m.forEach((new BiConsumer<Integer, String>() {
+        m.forEach((new BiConsumer<Integer, String>() {
                     @Override
                     public void accept(Integer key, String value) {
                         System.out.println(key + " : " + value);
                     }
                 })
-        );*/
+        );
 
         // lamdba 表达式
         m.forEach((key, value) -> {
