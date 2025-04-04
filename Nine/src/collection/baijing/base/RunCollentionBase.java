@@ -42,7 +42,11 @@ public class RunCollentionBase {
         System.out.println(col);
 
 
+        boolean be = col.isEmpty();
+        System.out.println(be);
 
+        int n = col.size();
+        System.out.println(n);
 
         // 清空
         col.clear();

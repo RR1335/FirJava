@@ -16,6 +16,10 @@ public class RunEqualsAndSignEqual {
 
         System.out.println("z -" + System.identityHashCode(z));
 
+        String s = new String("string");
+        System.out.println("s -" + System.identityHashCode(s));
+        System.out.println(s.equals(z));
+
 
     }
 }
