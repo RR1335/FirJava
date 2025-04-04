@@ -27,3 +27,9 @@
     System.out.println(Long.toHexString(VM.current().addressOf(z)));
     z 是声明的对象 —— Class z = new Class();
 
+# 命名逻辑
+
+    java 技术栈 . baijing. 技术点
+    便于阅读和理解
+    map.baijing.traverse 
+
