@@ -25,9 +25,17 @@ public class RunIteratorRemove {
             if ("Integer".equals(str)) {
                 // 删除元素
                 iter.remove();
+                /*
+                如果使用 col.remove()会报错。
+                 */
             }
         }
         System.out.println(col);
+
+        // 迭代器 while 循环外， Collection 集合操作正常使用
+        col.add("Yes - No while, Is OK " );
+        col.remove("Character" );
+        System.out.println(col + " _ Remove Character");
 
     }
 }
