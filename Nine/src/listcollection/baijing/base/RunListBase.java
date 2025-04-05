@@ -27,5 +27,9 @@ public class RunListBase {
 
         System.out.println(l);
 
+        l.add("HHHHHHHHHH");
+        String i2 = l.get(3);
+        System.out.println(i2);
+
     }
 }
