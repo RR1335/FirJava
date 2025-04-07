@@ -9,5 +9,12 @@ public class RunListInterface {
 
         System.out.println(list);
 
+        ListInterfaceEE<String> liee = new ListInterfaceEE<>();
+        liee.add("a");
+        liee.add("b");
+
+        System.out.println(liee);
+        System.out.println(liee.get(1));
+
     }
 }
