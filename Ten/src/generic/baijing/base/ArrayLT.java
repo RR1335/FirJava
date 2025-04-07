@@ -12,7 +12,7 @@ public class ArrayLT {
         return true;
     }
 
-    public <E> get(int index) {
+    public <E> Object get(int index) {
         return (E) obj[index];
     }
 
