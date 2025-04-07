@@ -3,6 +3,7 @@ package generic.baijing.base;
 public class RunArrayListT {
     public static void main(String[] args) {
 
+
         ArrayListT<String> at =   new ArrayListT<>();
 
         at.add("a");
