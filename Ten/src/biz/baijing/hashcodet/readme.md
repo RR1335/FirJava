@@ -55,3 +55,8 @@
 ## 说明
 
     所以，需要输出 Object 的 Content ，需要重写 （ @Override ）  toString 的 return 结构。
+
+
+## hashmap 
+
+    存储的 keys 是自定义对象，需要重写 hashcode and equals 方法
