@@ -23,7 +23,9 @@ public class RunImmutable {
             System.out.println(it.next());
         }
 
+//      Map 中的键值对有有限的，20个
         Map<String,String> mm = Map.of("Tom","美国","杰西卡","苏联");
+
 
         Set<Map.Entry<String,String>> en = mm.entrySet();
         for(Map.Entry<String,String> entry:en){
