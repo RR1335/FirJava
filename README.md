@@ -33,3 +33,6 @@
     便于阅读和理解
     map.baijing.traverse 
 
+    Class  命名遵照规则
+    main 方法，通过 Run + 命名 
+
