@@ -42,12 +42,14 @@
 
 **Collectors.toList()**
 
-    public static <T>
-    Collector<T, ?, List<T>> toList() {
-        return new CollectorImpl<>(ArrayList::new, List::add,
-                                   (left, right) -> { left.addAll(right); return left; },
-                                   CH_ID);
-    }
+```
+public static <T>
+Collector<T, ?, List<T>> toList() {
+    return new CollectorImpl<>(ArrayList::new, List::add,
+            (left, right) -> { left.addAll(right); return left; },
+                 CH_ID);
+}
+```
 
     中，ArrayList::new 也是构造引用 。
 
