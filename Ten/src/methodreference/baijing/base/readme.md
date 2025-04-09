@@ -32,6 +32,24 @@
     static 静态中，是没有 this 的；在 static 中方法引用需要 new 对象再引用。
     同样适用于父类。
 
+# 应用构造方法
+
+格式 **类名::new**
+范例 Car::new
+
+    构造方法没有返回值，当然也就没有返回值类型。
+    构造方法执行后，类本身就已经有了返回值。
+
+**Collectors.toList()**
+
+    public static <T>
+    Collector<T, ?, List<T>> toList() {
+        return new CollectorImpl<>(ArrayList::new, List::add,
+                                   (left, right) -> { left.addAll(right); return left; },
+                                   CH_ID);
+    }
+
+    中，ArrayList::new 也是构造引用 。
 
     
 
