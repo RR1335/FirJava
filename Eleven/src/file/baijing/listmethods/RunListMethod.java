@@ -29,11 +29,12 @@ public class RunListMethod {
                 // 依次打印 name 的绝对路径
 //                System.out.println(fl);
 //                return true;
+
                 return fl.getName().endsWith(".txt");
 //                return fl.isFile() && name.endsWith(".txt");
             }
         });
-//        System.out.println(Arrays.toString(list1));
+        System.out.println(Arrays.toString(list1));
 
 
     }
