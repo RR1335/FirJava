@@ -22,5 +22,7 @@ public class RunCatchDo {
         }
 
         System.out.println("执行结束了。");
+
+        System.err.println("error" + 123);
     }
 }
