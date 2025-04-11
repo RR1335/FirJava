@@ -5,8 +5,8 @@ import java.io.File;
 public class RunFilesSizeCount {
     public static void main(String[] args) {
 
-        File file = new File("/Users/ann/DJava/testfile/test");
-        System.out.println(filesSizeCount(file));
+        File file = new File("/Users/ann/DJava/");
+        System.out.println(filesSizeCount(file) );
 
     }
 
@@ -31,6 +31,6 @@ public class RunFilesSizeCount {
         }
 
         return size;
-//        return size / 1024 / 1024 ; // kb mb
+
     }
 }
