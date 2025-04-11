@@ -11,7 +11,7 @@ public class RunExercise {
         f.mkdirs();
 
 //        boolean mkdirs = new File("/Users/ann/DJava/testfile/test").mkdirs();
-        File file = new File(f,"a.txt");
+        File file = new File(f,"a1.doc");
         boolean newFile = file.createNewFile();
         System.out.println(newFile);
 
