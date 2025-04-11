@@ -17,7 +17,8 @@ public class ByteStreamRun {
         // 输出 写入数据
         // 覆盖，而非追加
         fos.write(90); // ASCII 码
-        // 关闭
+        fos.write(91);
+        // 释放资源
         fos.close();
 
     }
