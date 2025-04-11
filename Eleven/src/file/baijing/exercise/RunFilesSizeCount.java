@@ -31,5 +31,6 @@ public class RunFilesSizeCount {
         }
 
         return size;
+//        return size / 1024 / 1024 ; // kb mb
     }
 }
