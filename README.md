@@ -34,5 +34,5 @@
     map.baijing.traverse 
 
     Class  命名遵照规则
-    main 方法，通过 Run + 命名 
+    main 方法，通过 Run + 命名   || 更新  方法 + Run 更容易读取
 
