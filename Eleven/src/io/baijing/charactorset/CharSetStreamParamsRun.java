@@ -12,6 +12,8 @@ public class CharSetStreamParamsRun {
         int len;
         while((len = fr.read(buf)) != -1) {
             System.out.print(new String(buf, 0, len));
+            // ln 会对行末的 \n 按照字节读取的
+//            System.out.println(new String(buf, 0, len ));
         }
 
         fr.close();
