@@ -11,8 +11,8 @@ public class BufferedStreamCharRun {
         FileReader fr = new FileReader(INFOLDER);
         BufferedReader br = new BufferedReader(fr);
 
-        FileWriter fw = new FileWriter(OUTFOLDER);
-        BufferedWriter bw = new BufferedWriter(fw);
+        FileWriter fw = new FileWriter(OUTFOLDER, true); // 追加，true 在这里
+        BufferedWriter bw = new BufferedWriter(fw);  // BufferedWriter 无 追加参数 true
 
         String line;
         while ((line = br.readLine()) != null) {
