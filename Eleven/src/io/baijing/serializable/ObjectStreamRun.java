@@ -5,9 +5,9 @@ import java.io.*;
 public class ObjectStreamRun {
     public static void main(String[] args) throws IOException {
 
-        Person p = new Person("Tom",19);
+        Person p = new Person("Tom",19,"Tianjin, in Jinmen");
 
-        String FLODER = "/Users/ann/DJava/testfile/O1";
+        String FLODER = "/Users/ann/DJava/testfile/o1";
         FileOutputStream fos = new FileOutputStream(FLODER);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
 
