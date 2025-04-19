@@ -10,7 +10,7 @@ import java.util.zip.ZipInputStream;
 public class ZipStreamRun {
     public static void main(String[] args) throws IOException {
 
-        File src = new File("/Users/ann/DJava/testfile/test/1/j.zip");
+        File src = new File("/Users/ann/DJava/testfile/test/1/a.zip");
 
         File dest = new File("/Users/ann/DJava/testfile/test/1/");
 
