@@ -23,6 +23,8 @@ public class ToZipStreamRun {
         ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(new File(dest,"a.zip")));
 
         ZipEntry ze = new ZipEntry("a.txt");
+        // AA/BCB/a.txt 代表压缩包中的 文件路径
+//        ZipEntry ze1 = new ZipEntry("AA/BCB/a.txt");
         zos.putNextEntry(ze);
 
         FileInputStream fis = new FileInputStream(src);
