@@ -12,7 +12,10 @@ public class ThreadOneRun {
 
         ThreadDefClass th = new ThreadDefClass();
         th.setName("TH - ");
-        th.start();
+//        th.start();
+        Runnable start = th::start;
+        start.run();
+
 
         ThreadDefClass td = new ThreadDefClass();
         td.setName("TD - ");
