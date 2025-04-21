@@ -17,7 +17,7 @@ public class ThreadThreeRun {
          */
 
         CallableClass cc = new CallableClass();
-        FutureTask<Integer> fc = new FutureTask<>(cc);
+        FutureTask<String> fc = new FutureTask<>(cc);
 
         new Thread(fc).start();
 
@@ -25,5 +25,9 @@ public class ThreadThreeRun {
         // 获取结果
         System.out.println(fc.get());
 
+
+
     }
 }
+
+
