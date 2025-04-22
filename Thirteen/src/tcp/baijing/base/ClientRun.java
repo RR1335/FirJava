@@ -11,7 +11,8 @@ public class ClientRun {
 
         // 从 Socket 获取字节流
         OutputStream os = st.getOutputStream();
-        String str = "Hello Server.";
+//        String str = "Hello Server.";
+        String str = "你好，服务器！";
         os.write(str.getBytes());
 
         os.close();
