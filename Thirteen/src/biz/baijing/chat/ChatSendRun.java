@@ -23,6 +23,7 @@ public class ChatSendRun {
             byte[] bytes = message.getBytes();
 
             InetAddress address = InetAddress.getByName("127.0.0.1");
+//            InetAddress address = InetAddress.getByName("255.255.255.255"); // 广播
 
             int port = 10099;
 
