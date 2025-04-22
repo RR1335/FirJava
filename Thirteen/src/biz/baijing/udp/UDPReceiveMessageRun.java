@@ -22,7 +22,7 @@ public class UDPReceiveMessageRun {
         int port = dp.getPort();
         byte[] data = dp.getData();        // getData() 才是传递的数据
 
-        String str = new String(data, length);
+        String str = new String(data, 0,length);
         System.out.println("接收到信息: " + str);
         System.out.println("IP： " + address + " - 端口： " +port);
 
