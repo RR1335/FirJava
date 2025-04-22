@@ -14,6 +14,7 @@ public class UDPReceiveMessageRun {
         byte[] buf = new byte[1024];
         DatagramPacket dp = new DatagramPacket(buf, buf.length);
 
+        // receive 是 阻塞的，等 send 发送消息
         ds.receive(dp);
 
         int length = dp.getLength();
