@@ -14,6 +14,12 @@ public class ReflectionClassRun {
 
         System.out.println(sc == rc);
 
+        StudentClass stc = new StudentClass();
+        Class<? extends StudentClass> st = stc.getClass();
+
+        System.out.println("Class 3 - " + st);
+
+        System.out.println(st == rc);
 
     }
 }
