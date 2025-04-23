@@ -1,10 +1,10 @@
-package reflection.baijing.base;
+package reflection.baijing.classclass;
 
 public class ReflectionClassRun {
     public static void main(String[] args) throws ClassNotFoundException {
 
         // rc 则为 reflection.baijing.base.StudentClass 自解码文件的对象
-        Class<?> rc = Class.forName("reflection.baijing.base.StudentClass");
+        Class<?> rc = Class.forName("reflection.baijing.classclass.StudentClass");
 
         System.out.println("Class 1 - " + rc);
 

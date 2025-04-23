@@ -1,4 +1,4 @@
-package reflection.baijing.base;
+package reflection.baijing.classclass;
 
 public class StudentClass {
     String name;
