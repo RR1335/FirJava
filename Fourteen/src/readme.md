@@ -12,3 +12,9 @@
   - .class -> memory loading , 类名.class
 - 对象运行阶段
   - Class a = new Class() , 对象.getClass()
+
+# 全类名
+
+  包名 + 类名 
+  通过快捷键的方式拷贝、粘贴，避免出错。
+  
