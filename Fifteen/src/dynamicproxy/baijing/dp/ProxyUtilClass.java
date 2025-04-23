@@ -13,7 +13,7 @@ public class ProxyUtilClass {
 
         public static SingerProxyInterface createProxy(SingerClass sc) {
 
-            SingerClass sco  = (SingerClass) Proxy.newProxyInstance(
+            SingerProxyInterface sco  = (SingerClass)Proxy.newProxyInstance(
                         ProxyUtilClass.class.getClassLoader(),        // 指定类加载器，加载生成的类加载器
                         new Class[]{SingerClass.class},               // 指定接口，接口约束了代理的范畴，即：那些方法可用
                         new InvocationHandler() {                     // 生成的代理要做的动作
@@ -38,7 +38,7 @@ public class ProxyUtilClass {
                             }
                         }
                  );
-            return (SingerProxyInterface) sco;
+            return sco;
         }
 
 
