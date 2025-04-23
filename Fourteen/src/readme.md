@@ -11,4 +11,4 @@
 - 加载内存阶段
   - .class -> memory loading , 类名.class
 - 对象运行阶段
-  - 对象.getClass()
+  - Class a = new Class() , 对象.getClass()
