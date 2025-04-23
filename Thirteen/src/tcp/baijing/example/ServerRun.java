@@ -17,6 +17,11 @@ public class ServerRun {
         int ch;
         while ((ch = ir.read() ) != -1) {
             System.out.print((char) ch);
+
+            if (ch == '\n') {
+                System.out.println(ch);
+            }
+
         }
 
         // 服务器回写数据
